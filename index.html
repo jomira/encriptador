@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 
 </head>
@@ -16,28 +17,37 @@
     </header>
 
     <main class="presentacion">
-        <section class="presentacion__contenido">
-            <h1>Ingrese el texto aqui</h1>
+        <section class="presentacion__contenido1">
 
-            <div>
-                <p>Solo letras minúsculas y sin acentos</p>
+            <textarea class="text__area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
 
-                <button>Encriptar</button>
-                <button>Desencriptar</button>
+
+            <div class="validar">
+                <p class="alerta"> <i class="fa-solid fa-circle-exclamation"></i> Solo letras minúsculas y sin acentos</p>
+
+                <div class="botones">
+
+                    <button class="boton__encriptar">Encriptar</button>
+                    <button class="boton__desencriptar">Desencriptar</button>
+                </div>
 
             </div>
 
         </section>
 
-        <img class="muñeco__imagen" src="./assets/Muñeco.png"
-            alt="Figura arrodillada, viendo un diamante con una lupa.">
-        <h2>Ningún mensaje fue encontrado</h2>
-        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+        <section class="presentacion__contenido2">
+            <div class="resultado">
+                <img class="muñeco__imagen" src="./assets/Muñeco.png"
+                    alt="Figura arrodillada, viendo un diamante con una lupa.">
+                <h3>Ningún mensaje fue encriptado</h3>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
 
+            <div>
+                <button class="boton__copiar">copiar</button>
+            </div>
+        </section>
     </main>
-
-
-
 </body>
 
 </html>
