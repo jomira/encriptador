@@ -1,4 +1,4 @@
-# Encriptador de texto ¡Hola, bienvenido al Challenge One Encriptador de Texto!
+# ¡Hola, bienvenido al Challenge One Encriptador de Texto!
 
 ![challenge-one-encriptador](https://github.com/user-attachments/assets/da394b2a-770a-40b0-8a29-a16f69e9e274)
 
