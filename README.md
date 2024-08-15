@@ -13,6 +13,8 @@ Este proyecto es una aplicación web simple que permite encriptar y desencriptar
 - **Copiar al portapapeles**: Funcionalidad para copiar el texto encriptado o desencriptado directamente al portapapeles.
 - **Validación**: Acepta solo letras minúsculas sin acentos para garantizar la compatibilidad con las reglas de cifrado.
 
+## Tecnologías utilizadas
+
 ### Frontend
 
 - **HTML5**: Estructura de la aplicación web.
